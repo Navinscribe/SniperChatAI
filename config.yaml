@@ -1,0 +1,18 @@
+# Program defaults
+
+# OpenAI API request parameters
+openai_api_url:       "https://api.openai.com/v1/chat/completions"  # OpenAI API URL
+max_tokens:           100                                           # Maximum words in each response per prompt
+n:                    1                                             # Number of responses to be generated per prompt
+stop:                 null                                          # Word or phrase after which the response generation stops
+temperature:                                                        # Controls the response randomness
+  min:                0.0
+  max:                1.0
+  default:            0.5
+
+# Other program parameters
+conversation_mode:    "on"                                          # Determine whether to persist the conversation history
+max_threads:          10                                            # Maximum concurrent threads to process the prompts (Only applied when --conversation_mode is off)
+delay:                0                                             # Delay in seconds between each thread (Only applied when --conversation_mode is off)
+output_file:          "output.csv"                                  # Name of the generated output CSV file (Note: Only '.csv' extension is allowed)
+logging_level:        "WARNING"                                     # Program's logging level
