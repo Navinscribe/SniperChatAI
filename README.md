@@ -31,7 +31,7 @@
 - **Resilient Output Generation:** Capable of saving partially generated results. Useful during abrupt program termination scenarios.
 <br>
 
-> **Note**
+> **Note:**
 >
 > While SniperChatAI currently only supports OpenAI, the underlying code could be adapted to work with other AI vendors and models. The modular design of the program makes it relatively straightforward to replace the OpenAI-specific parts with equivalent components for another AI vendor.
 
@@ -56,9 +56,14 @@
 3. The program expects two input files:
    1. **Guidelines file**: A file containing guidelines that define the chatbot's behaviour. In technical terms, these are referred to as the `System Prompts`.
    2. **Prompts file**: A file containing prompts to query the chatbot, with each prompt written on a separate line. These are referred to as the `User Prompts`.
+<br>
 
-      **Note:** The repo includes sample input files to give you an idea of what the file contents might look like.
-<br><br>
+>**Note:**
+>
+>The repo includes sample input files to give you an idea of what the file contents might look like.
+
+<br>
+
 ## Installation Steps
 1. Download or clone the repository.
 
@@ -110,7 +115,7 @@ python SniperChatAI.py --ai_model gpt-4 --guidelines_file guidelines.txt --promp
 
 <br>
 
-> **Note**
+> **Note:**
 > 
 > The arguments `--max_threads` and `--delay` are only applied when `--conversation_mode` is off.
 > 
