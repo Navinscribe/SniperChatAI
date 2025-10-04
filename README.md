@@ -125,7 +125,7 @@ python SniperChatAI.py --ai_model gpt-4 --guidelines_file guidelines.txt --promp
 <br>
 
 ## License & Contributions
-- This project is licensed under the terms of the MIT license. Feel free to contribute, go ahead and submit a [Pull Request](https://github.com/Navinscribed/SniperChatAI/pulls).
+- This project is licensed under the terms of the MIT license. If you wish to contribute, feel free to submit a [Pull Request](https://github.com/Navinscribed/SniperChatAI/pulls).
 
 - However, if you are considering making significant modifications, I would insist that you discuss with me first by opening an [Issue](https://github.com/Navinscribed/SniperChatAI/issues/new).
 <br><br>
