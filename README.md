@@ -131,7 +131,7 @@ python SniperChatAI.py --ai_model gpt-4 --guidelines_file guidelines.txt --promp
 <br><br>
 ---
 <span style="vertical-align: middle;">Like my work?</span>
-<a href="https://www.buymeacoffee.com/navin.m" style="vertical-align: middle;">
+<a href="https://www.buymeacoffee.com/navinscribe" style="vertical-align: middle;">
   Buy me a coffee maybe?
   <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" style="width: 30px; height: 30px; vertical-align: middle;">
 </a>
